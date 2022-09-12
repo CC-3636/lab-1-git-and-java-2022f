@@ -44,6 +44,10 @@ public class IntroLab {
     /**
      * An example method that calls on printLabMessage.
      */
+
+    public static String hujeff() {
+        return printLabMessage("hello", "jeff", true, "Welcome");
+    }
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");
